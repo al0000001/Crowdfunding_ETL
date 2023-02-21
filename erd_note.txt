@@ -1,0 +1,33 @@
+campain
+--
+cf_id
+contact_id FK >- contacts.contact_id
+company_name
+description
+goal
+pledged
+outcome
+backers_count
+country
+currency
+launched_date
+end_date
+category_id
+subcategory_id
+
+category
+--
+category_id FK >- campain.category_id
+category_name
+
+contacts
+--
+contact_id
+first name
+last name 
+Email
+
+subcategory
+--
+subcategory_id FK >- campain.category_id
+subcategory_name
